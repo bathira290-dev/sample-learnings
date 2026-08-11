@@ -1,0 +1,118 @@
+   *{
+ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+
+    position: sticky;
+    top: 0;
+
+    height: 90px;
+    background-color: #00D2C6;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-inline: 30px;
+
+    border: 1.5px solid white;
+    z-index: 2;
+}
+
+.right-head{
+    display: flex;
+    gap: 60px;
+    font-size:x-large;
+    color: aliceblue;
+}
+
+.nav-items{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.section_1, .section_2, .section_3{
+    
+    margin-top: -30px;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+}
+
+.section_1{
+    background-image: url(../assets/bg1.png);
+
+}
+
+.section_2{
+     margin-top: -50px;
+    background-image: url(../assets/bg2.png);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_3{
+    margin-top: -40px;
+    background-image: url(../assets/bg3.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.content{
+    padding-top: 400px;
+    padding-left: 100px;
+}
+
+.floating-content{
+    width: 400px;
+    padding: 70px;
+    background-color: green; 
+    opacity: 0.7;
+
+    border-radius: 100px;
+}
+
+.content{
+    padding-top: 250px;
+    padding-left: 100px;
+    font-family: 'poppins',sans-serif;
+    color: white;
+    font-size: 35px;
+}
+/* flex row -> x -> main axis */
+/* flex column -> y -> main axis */
+footer{
+    background-color: #3E3E3E;  
+    font-size: 14px;
+    padding: 30px;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    color: white;
+}
+
+.flex_item {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+}
+footer p{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}

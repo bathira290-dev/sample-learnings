@@ -1,0 +1,21 @@
+:root{
+    --primary: #61103e;
+    --secondary:red;
+    --font-mono: monospace;
+
+}
+
+body{
+    background-color: var(--primary);
+}
+
+h1{
+    color: var(--secondary);
+    font-family: var(--font-mono);
+}
+span{
+    background-color:yellow;
+}
+p{
+    background-color:green;
+}

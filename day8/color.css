@@ -1,0 +1,82 @@
+body{
+    background-color:#ffa200;
+    background-color:rgb(255, 0, 0, 0.815);
+    background-color:hsla(136, 100%, 50%, 0.074);
+    /* 0-9 $ A-f */
+    /* background-color:  #ffooo;*/
+    background-image:url(https://t3.ftcdn.net/jpg/08/27/09/20/360_F_827092074_tUV40nTZFcjGT69jkS2EJErmYQ9HaDK6.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+
+    height: 100vh;
+    background-image: linear-gradient(to top right, black, white, rgba(0,0,0,0.5));
+}
+
+.paragraph{
+    color: green;
+}
+
+.paragraph:hover{
+    color: red;
+    font-size: 22px;
+    font-family: cursive;
+}
+
+.paragraph:active{
+    color: yellow;
+}
+
+.btn{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 8px;
+    padding-inline: 15px;
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: 2px 2px 7px black;
+}
+
+.btn:hover{
+    background-color: red;
+}
+
+.btn:active{
+    box-shadow: none;
+    scale: 0.8;
+}
+
+a:link{
+    color: yellow;
+}
+
+a:visited{
+    color: chocolate;
+}
+
+.paragraph::selection{
+    background-color: red;
+    color: black;
+}
+
+.paragraph::first-letter{
+    color: sienna;
+    font-size: 30px;
+}
+
+/* .container::after{
+    content: "😶‍🌫️";
+} */
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+input:focus{
+    outline: none;
+    border: 2px dashed blue;
+    border-radius: 20px;
+}

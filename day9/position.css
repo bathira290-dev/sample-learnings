@@ -1,0 +1,47 @@
+.box_1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    position: relative;
+    left: 400px;
+}
+
+.box_2{
+    width:100px;
+    height: 100px;
+    background-color: blue;
+
+    position: absolute;
+    top: 0;
+}
+
+.box_container{
+    position: relative;
+    margin-top: 200px;
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+
+}
+
+.head{
+    background-color: black;
+    padding: 6px;
+    color: white;
+    text-align: center;
+
+    position: sticky;
+    top: 0;
+}
+
+/* relative, absolute, fixed, sticky */

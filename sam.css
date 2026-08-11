@@ -1,0 +1,290 @@
+/* ================= GENERAL ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+
+/* ================= HEADER ================= */
+
+header {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 11%;
+}
+
+
+/* ================= LOGO ================= */
+
+.logo img {
+    width: 200px;
+    display: block;
+}
+
+
+/* ================= NAVIGATION ================= */
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #f5a900;
+}
+
+
+/* ================= CONTACT ================= */
+
+.contact {
+    border: 1px solid #f5a900;
+    padding: 12px 24px;
+    border-radius: 12px;
+}
+
+
+/* ================= HERO ================= */
+
+.hero {
+    width: 100%;
+
+    min-height: 700px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 50px 10%;
+}
+
+
+/* ================= LEFT ================= */
+
+.hero-left {
+    width: 52%;
+}
+
+
+/* HEADING */
+
+.hero-left h1 {
+    font-size: 62px;
+    line-height: 1.12;
+
+    font-weight: 700;
+
+    color: #30395c;
+}
+
+.hero-left h1 span {
+    color: #f5a900;
+}
+
+
+/* ================= HIGHLIGHT BOX ================= */
+
+.highlight {
+    width: 95%;
+
+    margin-top: 25px;
+
+    padding: 15px;
+
+    background-color: #fff2dc;
+
+    border-radius: 7px;
+
+    box-shadow: 0 3px 6px #aaa;
+
+    font-size: 16px;
+
+    font-weight: bold;
+}
+
+
+/* ================= PARAGRAPH ================= */
+
+.hero-left p {
+    width: 95%;
+
+    margin-top: 45px;
+
+    font-size: 20px;
+
+    line-height: 1.7;
+}
+
+
+/* ================= BUTTONS ================= */
+
+.buttons {
+    display: flex;
+
+    gap: 20px;
+
+    margin-top: 45px;
+}
+
+
+.buttons button {
+    background-color: white;
+
+    border: 1px solid #f5a900;
+
+    border-radius: 12px;
+
+    padding: 13px 25px;
+
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+
+.buttons button:hover {
+    background-color: #f5a900;
+
+    color: white;
+}
+
+
+/* ================= RIGHT ================= */
+
+.hero-right {
+    width: 45%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+.hero-right img {
+    width: 560px;
+
+    max-width: 100%;
+
+    height: auto;
+
+    display: block;
+}
+
+
+/* ================= WHATSAPP ================= */
+
+.whatsapp {
+    position: fixed;
+
+    right: 30px;
+    bottom: 30px;
+
+    width: 60px;
+    height: 60px;
+
+    background-color: #25d366;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    font-size: 30px;
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 900px) {
+
+    header {
+        height: auto;
+
+        padding: 20px;
+
+        flex-direction: column;
+
+        gap: 25px;
+    }
+
+
+    nav {
+        gap: 15px;
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+
+    nav a {
+        font-size: 16px;
+    }
+
+
+    .hero {
+        flex-direction: column;
+
+        padding: 40px 20px;
+
+        text-align: center;
+    }
+
+
+    .hero-left {
+        width: 100%;
+    }
+
+
+    .hero-left h1 {
+        font-size: 42px;
+    }
+
+
+    .highlight {
+        width: 100%;
+    }
+
+
+    .hero-left p {
+        width: 100%;
+    }
+
+
+    .buttons {
+        justify-content: center;
+    }
+
+
+    .hero-right {
+        width: 100%;
+
+        margin-top: 50px;
+    }
+
+}

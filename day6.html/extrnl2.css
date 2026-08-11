@@ -1,0 +1,16 @@
+p{
+    text-align: justify;
+    font-style: italic;
+    font-weight: lighter;
+}
+#name{
+    text-align: center;
+    color: blue;
+}
+h3{
+    text-align: left;
+    font-weight: lighter;
+}
+body{
+    font-family: "Edu VIC WA NT Hand",cursive;
+}
