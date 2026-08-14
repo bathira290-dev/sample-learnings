@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: scroll;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px soild white;
+
+}
+nav{
+    display: flex;
+}
+a,
+a:visited,
+a:hover,
+a:active{
+    text-decoration-color: none;
+    color:black;
+}
+.item{
+    display: flex;
+    gap: 40px;
+    font-size: xx-large;
+    margin-left: 300px;
+}
+button{
+    background-color: white;
+    border: 1.5px solid rgb(241, 156, 0);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 13px;
+    font-size: larger;
+}
+.right-side{
+    display: flex;
+    gap: 30px; 
+    justify-content: end;
+    padding-bottom: 5px;
+    grid-row: 5px;
+}
+h1{
+    color:  darkblue;
+    font-size: 4rem;
+    text-align: justify;
+    padding-left: 6px;
+}
+h2{
+    color: orange;
+    font-size: 3rem;
+    padding-left: 8px;
+}
+.content{
+ background-color: bisque;
+ font-size: 2rem;
+ padding-left: 7px;
+}
+.blocks{
+    font-size: 2rem;
+    font-style: italic;
+}
+.right-login{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.items{
+    color:orange;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+.di{
+    color: black;
+    font-size: large;
+}
+.bl{
+    color: rgba(0, 0, 0, 0.909);
+    font-size: large;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(82, 82, 25);
+}
