@@ -13,38 +13,38 @@
 // }
 
 // ----------------------------------------------------------------
-// const elements = document.getElementsByClassName("demo");
+const elements = document.getElementsByClassName("demo");
 
-// console.log(elements);
+console.log(elements);
 
-// console.log(elements[2].innerText);
+console.log(elements[2].innerText);
 
-// elements[2].innerText = "Changed";
+elements[2].innerText = "Changed";
 
-// elements[2].style.color = "green";
+elements[2].style.color = "green";
 
-// for (let i = 0; i < elements.length; i++){
-//     elements[i].innerHTML = "<b>Text changed</b>";
-//     elements[i].style.color = "gray"
-//     elements[i].style.fontSize = "40px";
-// }
+for (let i = 0; i < elements.length; i++){
+    elements[i].innerHTML = "<b>Text changed</b>";
+    elements[i].style.color = "gray"
+    elements[i].style.fontSize = "40px";
+}
 
 // ---------------------------------------------------------------------------
-// document.getElementsByTagName(); // operations same as getElementsByClassName
+document.getElementsByTagName(); // operations same as getElementsByClassName
 
-// document.querySelector(); // only one element
-// document.querySelectorAll(); // collection of elements
+document.querySelector(); // only one element
+document.querySelectorAll(); // collection of elements
 
 
-// const elem_1 = document.querySelector(".demo");
+const elem_1 = document.querySelector(".demo");
 
-// console.log(elem_1); // operations same as getElementById()
+console.log(elem_1); // operations same as getElementById()
 
-// // -----------------
+// -----------------
 
-// const elem_2 = document.querySelectorAll(".demo");
+const elem_2 = document.querySelectorAll(".demo");
 
-// console.log(elem_2); // operations same as getElementByClassName();
+console.log(elem_2); // operations same as getElementByClassName();
 
 //----------------------------------------------------------------------------
 const elem_3 = document.getElementsByTagName("demo");
@@ -68,6 +68,6 @@ for (let i = 0; i < elem_3.length; i++) {
 // console.log(elem_4[2].innerText);
 //------------------------------
 
-// const elem_5 = document.querySelector("demo");
+const elem_5 = document.querySelector("demo");
 
-// console.log(elem_5);
+console.log(elem_5);
